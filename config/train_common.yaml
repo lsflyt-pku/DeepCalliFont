@@ -1,0 +1,27 @@
+image_pretrain_model: # the path of pretraining model for the pretraining stage 1
+seq_pretrain_model: # the path of pretraining model for the pretraining stage 1
+pretrain_model: # the path of pretrain model for finetuning
+
+max_epoch: 100
+learning_rate: 0.0001
+batch_size: 8 # change for your dataset
+imagew: 1
+seqw: 1
+plw: 1
+show_step: 10
+generate_step: 10
+accum: 1
+
+name: common
+
+dataset:
+  train: data/train.txt
+  test: data/test.txt
+
+model:
+  image:
+    skip: False # skip distillation-restore
+    dml: True # deep metric learning
+  seq:
+    skip: False
+    dml: True
