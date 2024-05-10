@@ -11,8 +11,10 @@ We provide an example of the dataset in ([PKU Disk](https://disk.pku.edu.cn/link
 
 ## Train
 Run python train.py #path_of_config
+
 example: python train.py config/config_common.yaml
 
 ## Test
 Run python train.py #path_of_config
+
 example: python test.py config/config_common.yaml
