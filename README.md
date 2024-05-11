@@ -18,3 +18,14 @@ example: python train.py config/train_common.yaml
 Run python train.py #path_of_config
 
 example: python test.py config/train_common.yaml
+
+## How to cite
+
+```
+@article{liu2023deepcallifont,
+  title={DeepCalliFont: Few-shot Chinese Calligraphy Font Synthesis by Integrating Dual-modality Generative Models},
+  author={Liu, Yitian and Lian, Zhouhui},
+  journal={arXiv preprint arXiv:2312.10314},
+  year={2023}
+}
+```
